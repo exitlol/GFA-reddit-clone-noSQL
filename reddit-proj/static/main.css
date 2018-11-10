@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #eeeeee;
+}
+
+#align-div {
+  display: flex;
+}
+
+#header-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 180px;
+  background-image: url(./img/trianglify.svg);
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 3px 2px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.75);
+}
+
+i {
+  color: #efefef;
+  margin: 0 20px;
+  transform: rotate(45deg);
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #efefef;
+}
+
+#main-cont {
+  flex: 2;
+  background-color: #ffffff;
+  margin: 10px;
+}
+
+.post {
+  font-family: 'lato';
+  font-size: 14px;
+  width: 200px;
+}
+
+#side-cont {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+  width: 300px;
+  height: 500px;
+}
+
+#about {
+  background-color: #f5f5f5;
+  width: 100%;
+  margin-bottom: 140px;
+}
+
+#about h1 {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  margin: 5px;
+  background-color: rgb(224, 224, 224);
+  color: #222;
+}
+
+#about p {
+  margin: 10px;
+  font-family: 'Lato', sans-serif;
+  color: #222;
+}
+
+button {
+  border: 0;
+  height: 30px;
+  width: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #53c273;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 0.2em;
+  -webkit-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 3px 2px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.75);
+  outline: none;
+}
+
+button:active {
+  background-color: #206b36;
+}
+
+a {
+  text-decoration: none;
+  color: #53c273;
+  font-family: 'lato';
+  font-size: 22px;
+  font-weight: 400;
+
+}
+
+.modify {
+  border: 0;
+  height: 30px;
+  width: 80px;
+  font-family: 'lato';
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+}
+
+.post-cont {
+  display: flex;
+  border-bottom: 1px solid #dbdbdb
+}
+
+.inner-post-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.date {
+  font-family: 'lato';
+  font-size: 16px;
+  font-weight: 300;
+  color: #a7a7a7;
+}
+
+.score-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+.vote i {
+  color: #a7a7a7;
+  transform: rotate(0deg);
+}
+
+.vote i:active {
+  color: #4d4d4d
+}
+
+.act-score {
+  font-family: 'lato';
+  font-size: 18px;
+  font-weight: 700;
+  color: #a7a7a7;
+}
+
+.modal-cont {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+}
+
+.post-wind-cont {
+  margin: auto auto;
+  width: 60%;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  display: flex;
+}
+
+.new-post-input {
+  margin: 10px auto;
+  display: flex;
+  border-color: 1px solid #a7a7a7;
+  width: 80%;
+}
+
+.new-post-form {
+  width: 80%;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+label {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin: 0 15px;
+}
+
+input {
+  border: 1px solid #222;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 1em;
+  width: 100%;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#submit {
+  width: 30%;
+}
